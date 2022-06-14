@@ -5,7 +5,7 @@ The paper can be found here: ???
 
 - All results of the experiments we made on our machine are saved in /runs folder. 
 - The corrsponding plots lie in /plots folder. 
-- The code responsible for the LB_SGD, for plotting the plots, and for running the SafeOpt lies in /libs folder.
+- The code responsible for the LB_SGD, for plotting the plots, and for running the SafeOpt lies in /lib folder.
 
 To reproduce the experiments,
 
