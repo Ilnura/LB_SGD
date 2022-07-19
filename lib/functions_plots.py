@@ -183,7 +183,7 @@ def plot_experiments_linebo(d, axes_col, problem_name, experiments_num, f,
                         '-.', 
                         'dashed'
                         ]
-            linewidths=[2.,   
+            linewidths=[1.5,   
                        1.5, 
                        1., 
                        1.5,
@@ -200,7 +200,7 @@ def plot_experiments_linebo(d, axes_col, problem_name, experiments_num, f,
                     'dashdot', 
                     'dashed' 
                   ]
-        linewidths=[2.,   
+        linewidths=[1.5,   
                    1.5, 
                    1., 
                    1.
@@ -290,7 +290,7 @@ def plot_experiments(d, axes_col, problem_name, experiments_num):
                           colors=['royalblue', 'orange', 'orangered'], 
                           legends=['LB-SGD', 'SafeOpt', r'Threshold'],
                           linestyles=['solid', 'dashed', 'dashed'], 
-                          linewidths=[2., 1., 1.],
+                          linewidths=[1.5, 1., 1.],
                           fname="../runs/constraints_" + problem_name +'_d' + str(d), m="constraints")
     
 def plot_runtimes(axes_col, problem_name, experiments_num, ds, figsize=(5, 5)):
@@ -330,7 +330,7 @@ def plot_runtimes(axes_col, problem_name, experiments_num, ds, figsize=(5, 5)):
                             experiments_num, 
                             legends=['LB-SGD', 'SafeOpt', 'LineBO'], 
                             linestyles=['solid', 'dashed', 'dashdot'], 
-                            linewidths=[2., 1., 1.],
+                            linewidths=[1.5, 1., 1.],
                             m = "runtimes",  
                             fname = "../plots/runtimes_" + problem_name +'_d' + str(d),
                             problem_name = problem_name
