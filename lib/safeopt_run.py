@@ -141,10 +141,8 @@ def run_SafeOpt(n_iters,
     x_prev = x00
     mode = 'normal'
     for i in range(n_iters):
-#         if mode == 'normal':
         x = opt.optimize()
-#         else:
-#             x = x_prev
+
         if print_it:
             print('i=',i, 'x =', x)
         y0 = np.array([[-f(x)]]) + np.random.normal(0, sigma)
@@ -168,8 +166,6 @@ def run_SafeOpt(n_iters,
         errors_so.append(best_value)
         worst_constraint = np.max(constraints)
         cons_so.append(worst_constraint)
-#         if np.linalg.norm(x_prev - x) <= 0.00001:
-#             mode = 'repeat'
         x_prev = x
      
         
