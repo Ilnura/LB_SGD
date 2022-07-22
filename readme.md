@@ -17,4 +17,4 @@ To reproduce the experiments,
 4. Same for the SafeOpt experiments if you want (running them takes longer time)
 5. Run the cells corresponding to plotting the experiments (this will use the information saved in /runs folder, and save the plot in /plots folder)
 
-To reproduce the LineBO experiments, use the instruction we left in the corresponding readme.md file inside the /LineBO folder. We slightly modified the original code https://github.com/kirschnj/LineBO from the Johanness Kirschner's Github repository (we added the corresponding constraint functions to their benchmarks, and added the corresponding config files)
+To reproduce the LineBO experiments, use the instruction we left in the corresponding readme.md file inside the /LineBO folder. We slightly modified the original code https://github.com/kirschnj/LineBO (we added the corresponding constraint functions to their benchmarks, and added the corresponding config files)
